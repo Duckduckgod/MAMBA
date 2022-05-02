@@ -1,0 +1,9 @@
+cityscapesScripts
+cython
+matplotlib
+ninja
+opencv-python
+pycocotools
+scipy
+tqdm
+yacs
