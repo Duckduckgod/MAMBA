@@ -26,7 +26,7 @@ Please cite our paper in your publications if it helps your research:
 
 ## Main Results
 
-Pretrained models are now available at [Baidu](https://pan.baidu.com/s/1qjIAD3ohaJO8EF1mZ4nLEg) (code: neck) and Google Drive.
+Pretrained models are now available at Google Drive.
 
 |         Model         |  Backbone  | AP50 | AP (fast) | AP (med) | AP (slow) |                                             Link                                             |
 | :-------------------: | :--------: | :--: | :-------: | :------: | :-------: | :------------------------------------------------------------------------------------------: |
@@ -36,9 +36,12 @@ Pretrained models are now available at [Baidu](https://pan.baidu.com/s/1qjIAD3oh
 |       RDN-base        | ResNet-101 | 81.1 |   60.2    |   79.4   |   87.7    | [Google](https://drive.google.com/file/d/1jM5LqlVtCGjKH-MocTCjzFIVjqCyng8M/view?usp=sharing) |
 |          RDN          | ResNet-101 | 81.7 |   59.5    |   80.0   |   89.0    | [Google](https://drive.google.com/file/d/1FgoOwj-GFAMVn2hkSFKnxn5fKWPSxlUF/view?usp=sharing) |
 |         MEGA          | ResNet-101 | 82.9 |   62.7    |   81.6   |   89.4    | [Google](https://drive.google.com/file/d/1ZnAdFafF1vW9Lnpw-RPF1AD_csw61lBY/view?usp=sharing) |
-|       **MAMBA_INS**   | ResNet-101 | 83.5 |   66.3    |   82.8   |   88.9    |                                          model url                                           |
+|       **MAMBA_INS**   | ResNet-101 | 83.5 |   66.3    |   82.8   |   88.9   |   [model and logs](https://drive.google.com/file/d/1XPPlkJJhv7j6m2MtLU3ryUehmlDccKd3/view?usp=sharing)                                       |
 
 **Note**: The motion-IoU specific AP evaluation code is a bit different from the original implementation in FGFA. I think the original implementation is really weird so I modify it. So the results may not be directly comparable with the results provided in FGFA and other methods that use MXNet version evaluation code. But we could tell which method is relatively better under the same evaluation protocol.
+
+## Changelogs
+- 03/05/22 Update the url of model and trainval logs for MAMBA_R_101_C4_INS_1x
 
 ## Installation
 
